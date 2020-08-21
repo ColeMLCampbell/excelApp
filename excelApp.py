@@ -1,6 +1,7 @@
 import openpyxl
 from os import path
 
+
 def load_workbook(wb_path):
     if path.exists(wb_path):
         return openpyxl.load_workbook(wb_path)
@@ -20,8 +21,6 @@ custCount = [
 #    sheet.append(cust)
 
 #sheet.insert_rows(1, 3)
-
-# for 
 
  
 wb.save(wb_path)
